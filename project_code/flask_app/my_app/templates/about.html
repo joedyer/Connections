@@ -1,0 +1,25 @@
+<!-- imports are temporary: remove for full product -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script> <!-- necessary for bootstrap -->
+
+        <script language="javascript" type="text/javascript" src="../static/js/functions_main.js"></script>
+        <script language="javascript" type="text/javascript" src="../static/js/functions_ingestion.js"></script>
+        <script language="javascript" type="text/javascript" src="../static/js/functions_exploration.js"></script>
+        <script language="javascript" type="text/javascript" src="../static/js/functions_cmpguided.js"></script>
+        <script language="javascript" type="text/javascript" src="../static/js/functions_saving.js"></script>
+
+{% extends 'base.html' %}
+ 
+{% block maindiv %}
+    <script>
+        mode = "about";
+    </script>
+
+<div id="main-div" style="padding-bottom: 20%">
+    <h2>Welcome to the Connections Project</h2>
+    <p>The purpose of this application is the intelligent and graphical joining of tables. With the Connections Project, you can easily visualize all tables and, theoretically, find connections between data sets that aren't entirely obvious. You, the user, can explore through our Exploration mode or you can let our computers do the work with our Computer-Guided Learning.</p>
+
+    <p>This project was created by Alex Ball, Brian Sandman, Charley Lewittes, Jeremy Choi, Joseph Dyer, Kara Isakson, Nati Abebe, Preston Haynes, Shehan Jayasinghe, and Tai Zheng as part of the University of Maryland's Software Engineering course.</p>
+</div>
+    <div class="panel-footer" style="text-align: center"> <p>© Copyright 2016 Group Connections of CMSC435 Fall 2016, University of Maryland
+        This project is open source, according to the MIT License, which can be found at https://opensource.org/licenses/MIT.</p></div>
+{% endblock %}

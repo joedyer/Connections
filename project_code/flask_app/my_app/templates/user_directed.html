@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block maindiv %}
+<script>
+  mode = "user_driven";
+  resetAndGetInfoForDropDown();
+</script>
+    <div  class="alert alert-info" role="alert" id="instruction"> Select the first column name you would like to start with and click Continue.</div>
+<div id="main-div">
+<div class="center">
+  <div class="btn-group">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="dropdown-menu">Select First Column <span class="caret"></span></button>
+    <ul class="dropdown-menu scrollable-menu" role="menu" id="dropdown-ul"></ul>
+  </div>
+  <button type="button" onclick="displayTablesAsGraph([dropdownColumn])" class="btn btn-primary">Continue</button>
+  <div id="loading-text"></div>
+  </div>
+</div>
+{% endblock %}

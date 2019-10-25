@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+ 
+{% block maindiv %}
+<script>
+  mode = "computer_guided";
+  resetAndGetInfoForDropDown();
+</script>
+    <div  class="alert alert-info" role="alert" id="instruction">Select two column names to find a chain of tables potentially associating them.</div>
+<div id="main-div">
+  <div class="center">
+	<div class="btn-group">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="dropdown-menu-left">Select First Column <span class="caret"></span></button>
+    <ul class="dropdown-menu scrollable-menu" role="menu" id="dropdown-ul-left"></ul>
+  </div>
+  <div class="btn-group">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="dropdown-menu-right">Select Second Column <span class="caret"></span></button>
+    <ul class="dropdown-menu scrollable-menu" role="menu" id="dropdown-ul-right"></ul>
+  </div>
+  <button type="button" onclick="getAndShowPaths()" class="btn btn-primary">Get Paths</button>
+  <div id="loading-text"></div>
+  </div>
+</div>
+{% endblock %}

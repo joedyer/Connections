@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+ 
+{% block maindiv %}
+<script>
+  mode = "ingest";
+</script>
+    <div  class="alert alert-info" role="alert" id="instruction"> Upload the files you would like to merge and click on Upload. Or click on Add uploaded Files
+    to Database to copy the tables below to the database.</div>
+
+<div id="main-div">
+  <div class="top-pad">
+    <h4>Upload your files here</h4>
+
+    <div class="split-page-left">
+      <form action="upload" method=post enctype=multipart/form-data onSubmit="return checkFileName()">
+        <p><input type=file name=file id="file-upload-name" >
+          <input type=submit value=Upload class="btn btn-primary">
+      </form>
+
+	    <button type="button" class="btn btn-primary" onclick="onClickIngest()">Add Uploaded Files to Database</button>
+      <div id="loading-text"></div>
+    </div>
+	
+	  <h4>Uploaded Files That Aren't in the Database</h4>
+    <div class="split-page-right" id="right-db-file-list">
+	    <ul class="entries" id="file_entries">
+        {% for entry in unIngestedFiles %}
+    	   <li>{{ entry }}</li>
+  	     {% else %}
+    	   <li><em>No new uploaded files here so far</em></li>
+  	     {% endfor %}
+  	  </ul>
+	  </div>
+  </div>
+</div>
+{% endblock %}

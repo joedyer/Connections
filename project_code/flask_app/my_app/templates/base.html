@@ -1,0 +1,40 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Project Connections</title>
+		<link rel="stylesheet" type="text/css" href="../static/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.17.0/vis.min.css">
+		<link rel="stylesheet" type="text/css" href="../static/css/style.css">
+        <link rel='shortcut icon' type='image/x-icon' href='../static/img/favicon.ico' />
+		<script language="javascript" type="text/javascript" src="../static/js/jquery.min.js"></script>
+		<script language="javascript" type="text/javascript" src="../static/js/bootstrap.min.js"></script>
+		<script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.17.0/vis.min.js"></script>
+		<script language="javascript" type="text/javascript" src="../static/js/functions_main.js"></script>
+		<script language="javascript" type="text/javascript" src="../static/js/functions_ingestion.js"></script>
+		<script language="javascript" type="text/javascript" src="../static/js/functions_exploration.js"></script>
+		<script language="javascript" type="text/javascript" src="../static/js/functions_cmpguided.js"></script>
+		<script language="javascript" type="text/javascript" src="../static/js/functions_saving.js"></script>
+	</head>
+	<body>
+		<div class="navbar navbar-default navbar-static-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="{{ url_for('auth.route_root') }}">Project Connections</a>
+				</div>
+				<div class="collapse navbar-collapse">
+      		<ul class="nav navbar-nav">
+      		    <li><a href="{{ url_for('auth.ingest_home') }}">Ingest</a></li>
+        		<li><a href="{{ url_for('auth.user_directed') }}">Exploration</a></li>
+        		<li><a href="{{ url_for('auth.computer_guided') }}">Computer-Guided Learning</a></li>
+        		<li><a href="{{ url_for('auth.get_saved_tables_home') }}">See Saved Tables</a></li>
+        		<li><a href="{{ url_for('auth.about') }}">About</a></li>
+                <li><a href="/cas/logout">Log Off</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container main-view" id="main-view">
+			{% block maindiv %} {% endblock %}
+		</div>
+	</body>
+</html>

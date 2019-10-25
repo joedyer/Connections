@@ -1,0 +1,88 @@
+body {
+	padding: 0;
+	font-size: 16px;
+}
+button {
+	margin: 5px;
+}
+.btn {
+	margin-bottom: 5px;
+}
+.navbar-nav {
+	margin-left: 50px;
+}
+.main-view {
+	width: 100%;
+}
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+.btn-secondary {
+	background: #ffffff;
+	border: 3px solid #001de6;
+	color: #3372df;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	padding: 12px 32px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	align-items:center;
+}
+.split-page-left, .split-page-right {
+	float: left;
+}
+.scrollable-table {
+	width: auto;
+	max-width: 500px;
+	overflow-y: hidden;
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.center-login {
+	margin-left: auto;
+	margin-right: auto;
+}
+#right-db-file-list {
+	height: 375px;
+	width: 585px;
+	border: 1px solid #ccc;
+	font: 16px/26px Georgia, Garamond, Serif;
+	overflow: auto;
+}
+#network {
+	align-content: center;
+	margin-top: 20px ;
+}
+#box-menu {
+	align-content: center;
+}
+#menu-icon {
+	padding-bottom: 20px;
+}
+.container-fluid {
+	padding-top: 10%;
+}
+#menu-title {
+	align-content: center;
+	font-size: x-large;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+	text-align: center;
+}
+#menu-desc {
+	padding: 3px;
+	padding-left: 15px;
+	padding-right: 15px;
+	align-content: center;
+}
+.container-fluid a {
+    text-decoration: none;
+    text-indent: hanging;
+    text-underline: none;
+}

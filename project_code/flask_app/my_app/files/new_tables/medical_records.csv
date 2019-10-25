@@ -1,0 +1,21 @@
+id,patient_id,diagnosis,prescription,currency,payment_amount,balance
+1,7,G44309,Xanax,IDR,35.97,3841.63
+2,27,M13849,Felodipine,BAM,12.07,2447.70
+3,16,K1120,Antibacterial Spray,HNL,42.44,2020.49
+4,47,M13849,Cover Fx BB Gel Mattfying Anti-Blemish N Medium,EUR,34.43,4058.49
+5,49,G44309,Diltiazem Hydrochloride,MGA,53.84,3817.87
+6,17,M13849,Peppermint Hand Sanitizer,ALL,34.28,4389.09
+7,11,K90,Pain Reliever,QAR,36.51,3329.23
+8,36,M0016,Ketoprofen,IDR,38.68,3412.81
+9,38,M13849,Guanfacine,IDR,35.79,2084.46
+10,3,G44309,Justice Vanilla ANTI BAC HAND SANITIZER,CUP,51.18,2900.48
+11,28,O6010X1,XtraCare Antibacterial Hand Cleanse,CNY,46.50,2484.72
+12,17,V499XXD,DIANEAL PD-2 with Dextrose,EUR,25.41,2736.75
+13,31,G44309,Cimicifuga-Homaccord,USD,35.45,3851.68
+14,28,S63013D,Klor-Con M20,RUB,28.88,2816.16
+15,35,M08829,Triple Antibiotic Ointment,XOF,57.69,3264.26
+16,44,M13849,bareMinerals Ready SPF 15,CNY,48.47,3904.60
+17,39,S65401D,IWK-5,CNY,45.98,2969.85
+18,20,G44309,Triticum 3,CNY,15.77,3318.02
+19,38,G44309,Eszopiclone,PLN,36.22,2144.57
+20,33,S63112A,Celadrin,MWK,35.36,3563.64

@@ -1,0 +1,21 @@
+id,department,employee_first_name,employee_last_name,gender,work_skill
+1,Accounting,Alan,Price,M,High Yield
+2,Product Management,Brenda,Riley,F,Youth Engagement
+3,Accounting,Jean,Cooper,F,Hand-drawn Typography
+4,Training,Bonnie,Thompson,F,Clinical Supervision
+5,Human Resources,Robert,Coleman,M,Focus Groups
+6,Support,Teresa,Perkins,F,Focus Groups
+7,Sales,William,Barnes,M,Summation iBlaze
+8,Training,Sean,Carroll,M,WSIB Claims Management
+9,Product Management,Rebecca,Stanley,F,MQL
+10,Research and Development,Jack,Barnes,M,Hand-drawn Typography
+11,Business Development,Michael,Wallace,M,Distributed Systems
+12,Product Management,Brenda,Phillips,F,MRO Management
+13,Sales,Stephanie,Day,F,Youth Engagement
+14,Marketing,Benjamin,Rose,M,High Yield
+15,Engineering,Clarence,Gilbert,M,Focus Groups
+16,Business Development,Nancy,Carpenter,F,Hand-drawn Typography
+17,Human Resources,Robin,Gordon,F,Youth Engagement
+18,Business Development,Patrick,Olson,M,Youth Engagement
+19,Marketing,Diane,Porter,F,Hand-drawn Typography
+20,Sales,Joyce,Mills,F,Clinical Supervision
